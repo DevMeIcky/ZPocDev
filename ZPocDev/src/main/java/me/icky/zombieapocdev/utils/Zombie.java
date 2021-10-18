@@ -36,8 +36,8 @@ public class Zombie {
         zombie.setCustomName(name);
         zombie.setMaxHealth(Integer.valueOf(health));
         zombie.setHealth(Integer.valueOf(health));
-        zombie.getAttribute(Attribute.GENERIC_ATTACK_DAMAGE).setBaseValue(Integer.valueOf(health));
-        zombie.getAttribute(Attribute.GENERIC_MOVEMENT_SPEED).setBaseValue(Integer.valueOf(strength));
+        zombie.getAttribute(Attribute.GENERIC_ATTACK_DAMAGE).setBaseValue(Integer.valueOf(strength));
+        zombie.getAttribute(Attribute.GENERIC_MOVEMENT_SPEED).setBaseValue(Integer.valueOf(speed));
         zombie.addPotionEffect(new PotionEffect(PotionEffectType.JUMP, 18400000, Integer.valueOf(jump)));
         zombie.getAttribute(Attribute.GENERIC_FOLLOW_RANGE).setBaseValue(Integer.valueOf(range));
         zombie.setCanPickupItems(Boolean.valueOf(pickItems));

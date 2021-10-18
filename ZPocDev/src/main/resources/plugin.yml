@@ -4,3 +4,7 @@ main: me.icky.zombieapocdev.Main
 api-version: 1.13
 authors: [Icky]
 description: This is to make the development of Zombie Apocalypse better.
+commands:
+  spawnzombie:
+    description: Spawns a zombie
+    usage: /spawnzombie <name> <health> <strength> <speed> <jump> <range> <pickItems>
